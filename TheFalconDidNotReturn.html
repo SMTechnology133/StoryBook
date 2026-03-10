@@ -200,6 +200,16 @@ content="noindex,nofollow"/>
       cursor: pointer;
       border: 1px solid orange;
     }
+    
+    span {
+      background: var(--accent);
+      color: orange;
+      border: none;
+      padding: 2px;
+      border-radius: 6px;
+      cursor: pointer;
+      border: 1px solid orange;
+    }
 
     footer {
       background: teal;
@@ -1915,6 +1925,26 @@ Salmanda believes fiction has a unique power: not to accuse, but to ask difficul
   </form>
 </section>
 
+<button style="width:340px;" id="shbtn13">📄 Additional Contact Details</button>
+       <div class="safetyTips" id="d13" style="display:none; color: orange;">
+       	
+       <span>E-mail:</span> <a href="mailto:clementjuma.cmm@gmail.com? subject=your message">
+       		Send an E-mail
+       		</a><br>
+       			
+       	<span>Phone Call:</span> <a href="tel:+265982177920">
+       			Call now
+       				</a><br>
+       					
+       	<span>Send SMS:</span> <a href="sms:+265982177920">
+       		Leave an sms
+       		</a><br>
+       		
+       		<span>WhatsApp:</span> <a href="https://wa.me/982177920">
+       	Connect on WhatsApp
+       		</a>
+       	</div><br>
+
 <!--floating button-->
 	<button class="floating-btn" onclick="shareWebsite(); color(this);">↪</button>
 <!--end floating button--><br>
@@ -2142,6 +2172,21 @@ $("#shbtn12").click(function()
 { 
 
 $("#d12").toggle(); 
+
+}); 
+
+}); 
+
+//_______________________________
+
+//toggle safety tip 13
+$(document).ready(function() 
+{ 
+
+$("#shbtn13").click(function() 
+{ 
+
+$("#d13").toggle(); 
 
 }); 
 
