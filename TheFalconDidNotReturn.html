@@ -283,6 +283,15 @@ padding: 3px;
       border: 1px solid orange;
     }
     /* End alert box css*/
+    
+    a{
+    	text-decoration:none;
+    	text-shadow: 1px 0px 0px teal;
+    	color: maroon;
+    	font-size:18px;
+    	border-radius: 5px;
+    border: 1px solid maroon;
+    }
   </style>
 </head>
 <body>
@@ -343,11 +352,11 @@ All rights reserved.
 No part of this book may be reproduced, stored in a retrieval system, or transmitted in any form or by any means electronic, mechanical, photocopying, recording, or otherwise without the prior written permission of the author, except for brief quotations in reviews.
 </p></div>
 
-<!--<a href="https://smtechnology133.github.io/StoryBook/TheFalconDidNotReturn.pdf" download></a>
+<!--
 
 <a href="https://smtechnology133.github.io/StoryBook/TheFalconDidNotReturn.zip" download></a>-->
     
-    <button onclick="showAlert()">Download Book</button>
+    <button onclick="showAlert()"><a style="text-decoration:none; border:none;color:orange; font-size:13px;" href="https://smtechnology133.github.io/StoryBook/TheFalconDidNotReturn.pdf" download>Download Book</a></button>
   </section>
   <hr>
 
@@ -1928,20 +1937,20 @@ Salmanda believes fiction has a unique power: not to accuse, but to ask difficul
 <button style="width:340px;" id="shbtn13">📄 Additional Contact Details</button>
        <div class="safetyTips" id="d13" style="display:none; color: orange;">
        	
-       <span>E-mail:</span> <a href="mailto:clementjuma.cmm@gmail.com? subject=your message">
-       		Send an E-mail
-       		</a><br>
+       <span>E-mail:</span> <a href="mailto:clementjuma.cmm@gmail.com? subject=your message">&nbsp;&nbsp;
+Send an E-mail&nbsp;&nbsp;
+       		</a><br><br>
        			
-       	<span>Phone Call:</span> <a href="tel:+265982177920">
-       			Call now
-       				</a><br>
+       	<span>Phone Call:</span> <a href="tel:+265982177920">&nbsp;&nbsp;
+       			Call now&nbsp;&nbsp;
+       				</a><br><br>
        					
-       	<span>Send SMS:</span> <a href="sms:+265982177920">
-       		Leave an sms
-       		</a><br>
+       	<span>Send SMS:</span> <a href="sms:+265982177920">&nbsp;&nbsp;
+       		Leave an sms&nbsp;&nbsp;
+       		</a><br><br>
        		
-       		<span>WhatsApp:</span> <a href="https://wa.me/982177920">
-       	Connect on WhatsApp
+       		<span>WhatsApp:</span> <a href="https://wa.me/982177920">&nbsp;&nbsp;
+       	Connect on WhatsApp&nbsp;&nbsp;
        		</a>
        	</div><br>
 
@@ -2074,7 +2083,7 @@ $("#d5").toggle();
 
 //_______________________________
 
-/*//toggle safety tip 6
+//toggle safety tip 6
 $(document).ready(function() 
 { 
 
@@ -2160,7 +2169,7 @@ $("#d11").toggle();
 
 }); 
 
-}); */
+}); 
 
 //_______________________________
 
